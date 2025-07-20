@@ -24,9 +24,11 @@ export function LiveMatch({ teams }: LiveMatchProps) {
 
   useEffect(() => {
     const fetchMatchData = async () => {
+      const API_BASE_URL = process.env.API_BASE_URL || "http://localhost:3000/";
+
       try {
         const response = await fetch(
-          "http://localhost:3000/api/live-match-stream",
+          `${API_BASE_URL}/api/live-match-stream`,
           {
             method: "GET",
             headers: {
