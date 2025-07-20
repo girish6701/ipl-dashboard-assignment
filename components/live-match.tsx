@@ -27,7 +27,7 @@ export function LiveMatch({ teams }: LiveMatchProps) {
   useEffect(() => {
     const fetchMatchData = async () => {
       try {
-        const response = await fetch(`${API_BASE_URL}/api/live-match-stream`, {
+        const response = await fetch(`https://ipl-dashboard-assignment.vercel.app/api/live-match-stream`, {
           method: "GET",
           headers: {
             "Cache-Control": "no-cache",
