@@ -37,7 +37,7 @@ export function MatchSchedule({ matches, teams }: MatchScheduleProps) {
 
     return (
       <span
-        className={`flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium border ${color}`}
+        className={`flex items-center gap-1 px-1 sm:px-3 py-1 rounded-full text-xs font-medium border ${color}`}
       >
         <Icon className="h-3 w-3" />
         {status.charAt(0).toUpperCase() + status.slice(1)}
@@ -65,9 +65,9 @@ export function MatchSchedule({ matches, teams }: MatchScheduleProps) {
               }`}
             >
               <div className="flex items-center justify-between mb-4">
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2 sm:gap-4">
                   <span
-                    className={`flex items-center px-3 py-1 rounded-full text-sm font-medium ${
+                    className={`flex items-center px-1 sm:px-3 py-1 rounded-full text-sm font-medium ${
                       isUpcoming
                         ? "bg-blue-600 text-white"
                         : "bg-gray-600 text-white"
@@ -149,7 +149,7 @@ export function MatchSchedule({ matches, teams }: MatchScheduleProps) {
                     V/S
                   </div>
                   <div
-                    className={`flex items-center justify-center gap-1 text-sm rounded-lg px-3 py-1 ${
+                    className={`flex items-center justify-center gap-1 text-sm rounded-lg px-1 sm:px-3 py-1 ${
                       isUpcoming
                         ? "text-blue-600 bg-blue-50"
                         : "text-gray-600 bg-gray-100"

@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Introduction
+
+The website consists of two main pages: a Points Table page and an All Matches page:
+
+- Both pages feature an Upcoming Matches sidebar for quick access to future games.
+- The Matches page displays a list of all matches, including ongoing live matches, which are updated using polling to simulate real-time updates. This page is rendered using Server-Side Rendering (SSR) to ensure up-to-date content.
+- The Points Table page includes a filter to view historic data and is statically generated (SSG) for performance benefits. However, the statically generated points table pages are currently not being revalidated, resulting in stale data on updates.
+- The entire website is mobile responsive, offering a seamless user experience across devices.
+- Live Link - [https://ipl-dashboard-assignment.vercel.app/points-table/2024](https://ipl-dashboard-assignment.vercel.app/points-table/2024)
+
 ## Getting Started
 
 First, run the development server:
@@ -19,18 +29,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
