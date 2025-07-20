@@ -6,6 +6,8 @@ import Image from "next/image";
 import type { Team, LiveMatchState } from "@/types";
 import { getTeamById } from "@/lib/server-api";
 
+const API_BASE_URL = process.env.API_BASE_URL || "http://localhost:3000/";
+
 interface LiveMatchApiResponse {
   success: boolean;
   data?: LiveMatchState;
@@ -24,18 +26,13 @@ export function LiveMatch({ teams }: LiveMatchProps) {
 
   useEffect(() => {
     const fetchMatchData = async () => {
-      const API_BASE_URL = process.env.API_BASE_URL || "http://localhost:3000/";
-
       try {
-        const response = await fetch(
-          `${API_BASE_URL}/api/live-match-stream`,
-          {
-            method: "GET",
-            headers: {
-              "Cache-Control": "no-cache",
-            },
-          }
-        );
+        const response = await fetch(`${API_BASE_URL}/api/live-match-stream`, {
+          method: "GET",
+          headers: {
+            "Cache-Control": "no-cache",
+          },
+        });
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
