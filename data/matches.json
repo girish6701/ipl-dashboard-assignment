@@ -1,0 +1,199 @@
+{
+  "matches": [
+    {
+      "id": "match_1",
+      "team1": "GT",
+      "team2": "CSK",
+      "date": "2024-03-15",
+      "time": "19:30",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "status": "completed",
+      "matchNumber": 1,
+      "result": {
+        "winner": "GT",
+        "margin": "5 wickets",
+        "manOfMatch": "Shubman Gill",
+        "team1Score": {
+          "runs": 178,
+          "wickets": 5,
+          "overs": 19.2
+        },
+        "team2Score": {
+          "runs": 177,
+          "wickets": 8,
+          "overs": 20.0
+        }
+      }
+    },
+    {
+      "id": "match_2",
+      "team1": "RCB",
+      "team2": "PBKS",
+      "date": "2024-03-16",
+      "time": "15:30",
+      "venue": "M. Chinnaswamy Stadium, Bangalore",
+      "status": "completed",
+      "matchNumber": 2,
+      "result": {
+        "winner": "RCB",
+        "margin": "4 wickets",
+        "manOfMatch": "Virat Kohli",
+        "team1Score": {
+          "runs": 189,
+          "wickets": 6,
+          "overs": 19.1
+        },
+        "team2Score": {
+          "runs": 187,
+          "wickets": 4,
+          "overs": 20.0
+        }
+      }
+    },
+    {
+      "id": "match_3",
+      "team1": "MI",
+      "team2": "DC",
+      "date": "2024-03-17",
+      "time": "19:30",
+      "venue": "Wankhede Stadium, Mumbai",
+      "status": "completed",
+      "matchNumber": 3,
+      "result": {
+        "winner": "DC",
+        "margin": "6 runs",
+        "manOfMatch": "Rishabh Pant",
+        "team1Score": {
+          "runs": 162,
+          "wickets": 9,
+          "overs": 20.0
+        },
+        "team2Score": {
+          "runs": 168,
+          "wickets": 7,
+          "overs": 20.0
+        }
+      }
+    },
+    {
+      "id": "match_4",
+      "team1": "KKR",
+      "team2": "SRH",
+      "date": "2024-03-18",
+      "time": "19:30",
+      "venue": "Eden Gardens, Kolkata",
+      "status": "completed",
+      "matchNumber": 4,
+      "result": {
+        "winner": "KKR",
+        "margin": "7 wickets",
+        "manOfMatch": "Andre Russell",
+        "team1Score": {
+          "runs": 155,
+          "wickets": 3,
+          "overs": 17.4
+        },
+        "team2Score": {
+          "runs": 154,
+          "wickets": 8,
+          "overs": 20.0
+        }
+      }
+    },
+    {
+      "id": "match_5",
+      "team1": "RR",
+      "team2": "LSG",
+      "date": "2024-03-19",
+      "time": "19:30",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "status": "completed",
+      "matchNumber": 5,
+      "result": {
+        "winner": "RR",
+        "margin": "20 runs",
+        "manOfMatch": "Jos Buttler",
+        "team1Score": {
+          "runs": 193,
+          "wickets": 6,
+          "overs": 20.0
+        },
+        "team2Score": {
+          "runs": 173,
+          "wickets": 9,
+          "overs": 20.0
+        }
+      }
+    },
+    {
+      "id": "match_6",
+      "team1": "CSK",
+      "team2": "MI",
+      "date": "2024-03-22",
+      "time": "19:30",
+      "venue": "M. A. Chidambaram Stadium, Chennai",
+      "status": "upcoming",
+      "matchNumber": 6
+    },
+    {
+      "id": "match_7",
+      "team1": "RCB",
+      "team2": "PBKS",
+      "date": "2024-03-23",
+      "time": "15:30",
+      "venue": "M. Chinnaswamy Stadium, Bangalore",
+      "status": "upcoming",
+      "matchNumber": 7
+    },
+    {
+      "id": "match_8",
+      "team1": "KKR",
+      "team2": "DC",
+      "date": "2024-03-24",
+      "time": "19:30",
+      "venue": "Eden Gardens, Kolkata",
+      "status": "upcoming",
+      "matchNumber": 8
+    },
+    {
+      "id": "match_9",
+      "team1": "RR",
+      "team2": "SRH",
+      "date": "2024-03-25",
+      "time": "19:30",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "status": "upcoming",
+      "matchNumber": 9
+    },
+    {
+      "id": "match_10",
+      "team1": "GT",
+      "team2": "LSG",
+      "date": "2024-03-26",
+      "time": "19:30",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "status": "upcoming",
+      "matchNumber": 10
+    },
+    {
+      "id": "match_11",
+      "team1": "MI",
+      "team2": "RCB",
+      "date": "2024-03-27",
+      "time": "19:30",
+      "venue": "Wankhede Stadium, Mumbai",
+      "status": "upcoming",
+      "matchNumber": 11
+    },
+    {
+      "id": "match_12",
+      "team1": "CSK",
+      "team2": "KKR",
+      "date": "2024-03-28",
+      "time": "15:30",
+      "venue": "M. A. Chidambaram Stadium, Chennai",
+      "status": "upcoming",
+      "matchNumber": 12
+    }
+  ]
+}

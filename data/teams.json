@@ -1,0 +1,64 @@
+{
+  "teams": [
+    {
+      "id": "CSK",
+      "name": "Chennai Super Kings",
+      "shortName": "CSK",
+      "logo": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/teamlogos/CSK.png?v=2"
+    },
+    {
+      "id": "MI",
+      "name": "Mumbai Indians",
+      "shortName": "MI",
+      "logo": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/teamlogos/MI.png?v=2"
+    },
+    {
+      "id": "RCB",
+      "name": "Royal Challengers Bangalore",
+      "shortName": "RCB",
+      "logo": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/teamlogos/RCB.png?v=2"
+    },
+    {
+      "id": "KKR",
+      "name": "Kolkata Knight Riders",
+      "shortName": "KKR",
+      "logo": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/teamlogos/KKR.png?v=2"
+    },
+    {
+      "id": "DC",
+      "name": "Delhi Capitals",
+      "shortName": "DC",
+      "logo": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/teamlogos/DC.png?v=2"
+    },
+    {
+      "id": "PBKS",
+      "name": "Punjab Kings",
+      "shortName": "PBKS",
+      "logo": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/teamlogos/PBKS.png?v=2"
+    },
+    {
+      "id": "RR",
+      "name": "Rajasthan Royals",
+      "shortName": "RR",
+      "logo": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/teamlogos/RR.png?v=2"
+    },
+    {
+      "id": "SRH",
+      "name": "Sunrisers Hyderabad",
+      "shortName": "SRH",
+      "logo": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/teamlogos/SRH.png?v=2"
+    },
+    {
+      "id": "GT",
+      "name": "Gujarat Titans",
+      "shortName": "GT",
+      "logo": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/teamlogos/GT.png?v=2"
+    },
+    {
+      "id": "LSG",
+      "name": "Lucknow Super Giants",
+      "shortName": "LSG",
+      "logo": "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/teamlogos/LSG.png?v=2"
+    }
+  ]
+}
