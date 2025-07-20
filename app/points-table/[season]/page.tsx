@@ -45,6 +45,6 @@ export default async function PointsTableSeasonPage({
   }
 }
 
-// export async function generateStaticParams() {
-//   return [{ season: "2024" }, { season: "2023" }, { season: "2022" }];
-// }
+export async function generateStaticParams() {
+  return [{ season: "2024" }, { season: "2023" }, { season: "2022" }];
+}
